@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Life OS: Off Script",
+  "projectDescription": "A personal life operating system that helps you design and run your life on your own terms — tracking goals, habits, schedule, and reflection in one unified space.",
   "theme": "almond",
-  "name": "Life OS: Off Script",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -72,20 +70,14 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@offscript.life"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Open App",
-      "href": "https://app.offscript.life"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Today view — a single calm surface showing what matters right now",
+    "Goals tracker — capture directions, break them into steps, and track progress",
+    "Habits & routines — build consistent daily practices without shame loops",
+    "Schedule — day, week, and month views to keep commitments visible",
+    "Reflect — weekly journal and review to close the loop and improve",
+    "Life areas — organise everything under the parts of life that matter to you",
+    "Off Script philosophy — tools and prompts to help you live on your own terms"
+  ],
+  "publicApiSurface": []
 }
